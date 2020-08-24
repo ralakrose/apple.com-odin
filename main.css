@@ -273,15 +273,19 @@ li {
   background-image: none;
   z-index: 0;
 }
+.search-div {
+  border-radius: 12px;
+  border: 2px solid #505050;
+  padding: 0;
+  margin: 0;
+}
 .search-input {
   width: 100px;
   background: transparent;
-  border-radius: 12px;
-  border-color: rgb(209, 208, 208);
+  border: none;
+  outline: none;
 }
-.search-input:active {
-  background-color: white;
-}
+
 .thumbnails {
   max-width: 1440px;
   min-width: 1300px;
