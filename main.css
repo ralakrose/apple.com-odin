@@ -302,3 +302,86 @@ li {
   left: 0;
   right: 0;
 }
+.page-footer {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  font-size: 0.8334em;
+  line-height: 1.2;
+  text-align: center;
+  zoom: 1;
+  display: block;
+}
+.footer-wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+.left {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+.page-footer p {
+  display: inline;
+  margin: 0;
+}
+.page-footer a {
+  color: #08c;
+}
+.footer-right {
+  float: right;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+.footer-right-1 {
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+}
+.page-footer ul {
+  display: inline;
+  margin: 0;
+}
+.page-footer .footer-right li.first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+.page-footer .footer-right-1 li.first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+.page-footer .footer-right li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+.page-footer .footer-right-1 li {
+  display: inline-block;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+.lower-left {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+}
